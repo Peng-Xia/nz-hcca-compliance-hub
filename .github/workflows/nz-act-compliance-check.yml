@@ -59,7 +59,7 @@ jobs:
             "constitution_&_legal" "finance_&_funding" "governance_&_officers" \
             "dispute_resolution" "event_operations" 2>/dev/null \
             | grep -v "_ZH_REF\.md" \
-            | grep -viE "(not|no |prohibit|must not|cannot|shall not)")
+            | grep -viE "(not|no |prohibit|must not|cannot|shall not)") || true
           if [ -n "$UNGUARDED" ]; then
             echo "⚠️   WARNING: Potential unguarded 'financial gain for members' language found:"
             echo "$UNGUARDED"
