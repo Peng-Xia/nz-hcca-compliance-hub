@@ -1,0 +1,192 @@
+name: NZ ISA 2022 Compliance Keyword Check
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  compliance-keyword-check:
+    name: Check Required Compliance Keywords
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check mandatory keywords in policy documents
+        id: keyword-check
+        run: |
+          FAILED=0
+          REPORT=""
+
+          # NOTE: Only primary English files (*.md without _ZH_REF suffix) are checked.
+          # Chinese reference files (*_ZH_REF.md) are excluded from compliance keyword checks
+          # to prevent false positives from translated content.
+
+          # Define required keywords and the files they must appear in
+          # Format: "KEYWORD|file_glob|description"
+          declare -A CHECKS=(
+            ["Incorporated"]="constitution_&_legal/constitution_template.md|Constitution must reference 'Incorporated'"
+            ["Committee"]="constitution_&_legal/constitution_template.md|Constitution must define 'Committee'"
+            ["Natural Justice"]="dispute_resolution/dispute_resolution_policy.md|Dispute policy must include 'Natural Justice'"
+            ["Financial Gain"]="finance_&_funding/financial_control_policy.md|Financial policy must address 'Financial Gain'"
+            ["Interests Register"]="governance_&_officers/conflict_of_interest_policy.md|COI policy must reference 'Interests Register'"
+            ["Contact Person"]="governance_&_officers/contact_person.md|Contact person doc must include 'Contact Person'"
+          )
+
+          for KEYWORD in "${!CHECKS[@]}"; do
+            IFS='|' read -r FILE_GLOB DESCRIPTION <<< "${CHECKS[$KEYWORD]}"
+            if grep -rqi "$KEYWORD" "$FILE_GLOB" 2>/dev/null; then
+              echo "✅  PASS: '$KEYWORD' found in $FILE_GLOB"
+            else
+              echo "❌  FAIL: '$KEYWORD' NOT found in $FILE_GLOB"
+              echo "         Required: $DESCRIPTION"
+              REPORT="${REPORT}\n- MISSING '$KEYWORD' in ${FILE_GLOB}: ${DESCRIPTION}"
+              FAILED=1
+            fi
+          done
+
+          # Additional broad check: every markdown file in policy dirs should
+          # not accidentally contain "financial gain for members" without the
+          # word "not" / "no" / "prohibit" / "must not" nearby (anti-pattern).
+          echo ""
+          echo "--- Checking for unguarded 'financial gain for members' phrases ---"
+          # Exclude _ZH_REF.md files (Chinese reference translations) from the anti-pattern scan
+          # to avoid false positives from translated text.
+          UNGUARDED=$(grep -rni "financial gain for members" \
+            constitution_&_legal finance_&_funding governance_&_officers \
+            dispute_resolution event_operations 2>/dev/null \
+            | grep -v "_ZH_REF\.md" \
+            | grep -viE "(not|no |prohibit|must not|cannot|shall not)")
+          if [ -n "$UNGUARDED" ]; then
+            echo "⚠️   WARNING: Potential unguarded 'financial gain for members' language found:"
+            echo "$UNGUARDED"
+            REPORT="${REPORT}\n- WARNING: Review 'financial gain for members' phrasing in the above files."
+          else
+            echo "✅  PASS: No unguarded 'financial gain for members' language found."
+          fi
+
+          # Summary
+          echo ""
+          echo "===== COMPLIANCE CHECK SUMMARY ====="
+          if [ "$FAILED" -eq 0 ]; then
+            echo "✅  All mandatory keyword checks PASSED."
+          else
+            echo "❌  One or more mandatory keyword checks FAILED."
+            echo -e "$REPORT"
+            exit 1
+          fi
+
+      - name: Check that Section 26 provisions are referenced in Constitution
+        id: section26-check
+        run: |
+          FAILED=0
+          CONST="constitution_&_legal/constitution_template.md"
+
+          echo "--- Checking ISA 2022 Section 26 mandatory provisions ---"
+
+          PROVISIONS=(
+            "Section 26"
+            "financial gain"
+            "Natural Justice"
+            "winding up"
+            "Contact Person"
+            "Interests Register"
+            "Annual General Meeting"
+            "special resolution"
+            "dispute"
+            "eligibility"
+          )
+
+          for TERM in "${PROVISIONS[@]}"; do
+            if grep -qi "$TERM" "$CONST" 2>/dev/null; then
+              echo "✅  '$TERM' — present in constitution"
+            else
+              echo "❌  '$TERM' — MISSING from constitution"
+              FAILED=1
+            fi
+          done
+
+          if [ "$FAILED" -eq 0 ]; then
+            echo ""
+            echo "✅  All Section 26 provision checks PASSED."
+          else
+            echo ""
+            echo "❌  Constitution is missing one or more required Section 26 provisions. Review and update."
+            exit 1
+          fi
+
+      - name: Verify Chinese reference files exist alongside every primary document
+        id: zh-ref-check
+        run: |
+          FAILED=0
+          echo "--- Checking that every primary policy document has a _ZH_REF.md counterpart ---"
+          PRIMARY_FILES=(
+            "constitution_&_legal/constitution_template.md"
+            "constitution_&_legal/registration_checklist.md"
+            "governance_&_officers/conflict_of_interest_policy.md"
+            "governance_&_officers/interests_register.md"
+            "governance_&_officers/committee_eligibility.md"
+            "governance_&_officers/contact_person.md"
+            "dispute_resolution/dispute_resolution_policy.md"
+            "finance_&_funding/financial_control_policy.md"
+            "finance_&_funding/overseas_funding_rules.md"
+            "finance_&_funding/agm_report_template.md"
+            "event_operations/event_compliance_checklist.md"
+            "event_operations/volunteer_management_policy.md"
+          )
+          for F in "${PRIMARY_FILES[@]}"; do
+            ZH_REF="${F%.md}_ZH_REF.md"
+            if [ -f "$ZH_REF" ]; then
+              echo "✅  ZH_REF present: $ZH_REF"
+            else
+              echo "❌  MISSING ZH_REF: $ZH_REF"
+              FAILED=1
+            fi
+          done
+          if [ "$FAILED" -eq 0 ]; then
+            echo ""
+            echo "✅  All primary documents have a corresponding Chinese reference file."
+          else
+            echo ""
+            echo "❌  One or more Chinese reference (_ZH_REF.md) files are missing."
+            echo "    Per GOVERNANCE.md Section 6, every primary English document must have a"
+            echo "    corresponding Chinese reference file. Add the missing file(s) to this PR."
+            exit 1
+          fi
+
+      - name: Verify Overseas Funding Rules exist and contain AML reference
+        id: overseas-check
+        run: |
+          FILE="finance_&_funding/overseas_funding_rules.md"
+          if [ ! -f "$FILE" ]; then
+            echo "❌  FAIL: Overseas Funding Rules file not found at $FILE"
+            exit 1
+          fi
+          if grep -qi "AML\|anti-money laundering\|Anti-Money Laundering" "$FILE"; then
+            echo "✅  PASS: AML reference found in Overseas Funding Rules."
+          else
+            echo "❌  FAIL: No AML (Anti-Money Laundering) reference found in $FILE"
+            exit 1
+          fi
+
+      - name: Post compliance summary as PR comment (on pull requests only)
+        if: github.event_name == 'pull_request' && (success() || failure())
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const conclusion = '${{ job.status }}' === 'success'
+              ? '✅ All NZ ISA 2022 compliance keyword checks passed.'
+              : '❌ One or more NZ ISA 2022 compliance keyword checks FAILED. Review the Actions log and correct the policy documents before merging.';
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `## NZ ISA 2022 Compliance Check Result\n\n${conclusion}\n\n` +
+                    `**Required keywords checked:** \`Incorporated\`, \`Committee\`, \`Natural Justice\`, ` +
+                    `\`Financial Gain\`, \`Interests Register\`, \`Contact Person\`\n\n` +
+                    `See the [Actions log](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}) for details.`
+            });

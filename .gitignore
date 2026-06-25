@@ -1,0 +1,45 @@
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node (if any tooling is added)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+logs/
+
+# Sensitive documents — never commit these
+*.pdf
+private/
+secrets/
+*.env
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+~$*
+
+# Draft working files (use /drafts/ branch instead)
+*_DRAFT.*
+*_WIP.*
