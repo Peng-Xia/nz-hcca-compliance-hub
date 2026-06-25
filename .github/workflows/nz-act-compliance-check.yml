@@ -56,8 +56,8 @@ jobs:
           # Exclude _ZH_REF.md files (Chinese reference translations) from the anti-pattern scan
           # to avoid false positives from translated text.
           UNGUARDED=$(grep -rni "financial gain for members" \
-            constitution_&_legal finance_&_funding governance_&_officers \
-            dispute_resolution event_operations 2>/dev/null \
+            "constitution_&_legal" "finance_&_funding" "governance_&_officers" \
+            "dispute_resolution" "event_operations" 2>/dev/null \
             | grep -v "_ZH_REF\.md" \
             | grep -viE "(not|no |prohibit|must not|cannot|shall not)")
           if [ -n "$UNGUARDED" ]; then
