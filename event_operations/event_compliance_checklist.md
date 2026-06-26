@@ -5,25 +5,24 @@
 **NZ Chinese Heritage & Community Alliance Inc. (HCCA)**
 
 > Complete this checklist for EVERY HCCA event. File the completed checklist with the Secretary within 7 days of event completion.
-> 每次HCCA活动均须完成本清单，并在活动结束后7天内将完成的清单提交给秘书存档。
 
 ---
 
-## Event Information / 活动基本信息
+## Event Information
 
 | Field | Details |
 |-------|---------|
-| Event Name / 活动名称 | |
-| Event Date(s) / 活动日期 | |
-| Venue / 场地 | |
-| Estimated Attendance / 预计参与人数 | |
-| Event Coordinator / 活动协调人 | |
-| Committee Approving Officer / 批准的理事会成员 | |
-| Date of Committee Approval / 理事会批准日期 | |
+| Event Name | |
+| Event Date(s) | |
+| Venue | |
+| Estimated Attendance | |
+| Event Coordinator | |
+| Committee Approving Officer | |
+| Date of Committee Approval | |
 
 ---
 
-## Section 1 — Pre-Event Planning / 活动前规划
+## Section 1 — Pre-Event Planning
 
 ### 1.1 Organisational Approval
 - [ ] Event concept has been presented to and approved by the Committee.
@@ -63,7 +62,7 @@
 
 ---
 
-## Section 2 — During the Event / 活动进行中
+## Section 2 — During the Event
 
 ### 2.1 Arrival
 - [ ] Event coordinator arrives at least 60 minutes before start.
@@ -85,7 +84,7 @@
 
 ---
 
-## Section 3 — Post-Event / 活动结束后
+## Section 3 — Post-Event
 
 ### 3.1 Financial
 - [ ] Post-event financial summary prepared within 30 days.
@@ -107,7 +106,7 @@
 
 ---
 
-## Section 4 — Incident Log / 事故记录
+## Section 4 — Incident Log
 
 *Record any incidents, near-misses, injuries, complaints, or concerns that occurred during the event.*
 
@@ -120,7 +119,7 @@
 
 ---
 
-## Certification / 认证
+## Certification
 
 I confirm that this checklist has been completed accurately and that the event was conducted in accordance with HCCA's policies and applicable New Zealand law.
 

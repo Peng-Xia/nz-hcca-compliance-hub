@@ -5,12 +5,10 @@
 **NZ Chinese Heritage & Community Alliance Inc. (HCCA)**
 
 > **Instructions:** Complete all sections before the AGM. This template covers both the Annual Report (distributed to members and filed with Charities Services) and the AGM agenda/proceedings record.
-> **使用说明：** 在年会前完成所有部分。本模板涵盖年度报告（分发给会员并提交Charities Services）及年会议程/会议记录。
 
 ---
 
-## PART A — ANNUAL REPORT
-## A部分 — 年度报告
+## Part A — Annual Report
 
 **Financial Year:** _________________ (ending 31 March _____)
 **Prepared by:** Secretary and Treasurer
@@ -18,7 +16,7 @@
 
 ---
 
-### A1. Organisation Information / 组织基本信息
+### A1. Organisation Information
 
 | Field | Details |
 |-------|---------|
@@ -32,7 +30,7 @@
 
 ---
 
-### A2. Committee Members During the Year / 本年度理事会成员
+### A2. Committee Members During the Year
 
 | Name | Role | From | To | Status |
 |------|------|------|----|--------|
@@ -45,13 +43,13 @@
 
 ---
 
-### A3. President's Report / 主席报告
+### A3. President's Report
 
 *[To be written by the President — summarise major achievements, challenges, and the Society's direction for the coming year. Suggested length: 300–500 words.]*
 
 ---
 
-### A4. Charitable Activities Report / 慈善活动报告
+### A4. Charitable Activities Report
 
 *Describe each significant activity undertaken during the year and how it advanced HCCA's charitable purposes:*
 
@@ -67,7 +65,7 @@
 
 ---
 
-### A5. Overseas Funding Disclosure / 海外资金披露
+### A5. Overseas Funding Disclosure
 
 *In accordance with HCCA's Overseas Funding Rules and Charities Services requirements:*
 
@@ -87,7 +85,7 @@
 
 ---
 
-### A6. Financial Summary / 财务摘要
+### A6. Financial Summary
 
 *(Summarise the key figures from the financial statements — full statements are attached.)*
 
@@ -116,7 +114,7 @@
 
 ---
 
-### A7. Membership Report / 会员报告
+### A7. Membership Report
 
 | Category | Number |
 |----------|--------|
@@ -128,8 +126,7 @@
 
 ---
 
-## PART B — AGM PROCEEDINGS RECORD
-## B部分 — 年会议事记录
+## Part B — AGM Proceedings Record
 
 **AGM Date:** _________________
 **AGM Location / Platform:** _________________
@@ -139,7 +136,7 @@
 
 ---
 
-### B1. Attendance / 出席情况
+### B1. Attendance
 
 **Members present in person:** _____
 **Members attending remotely:** _____
@@ -148,7 +145,7 @@
 
 ---
 
-### B2. Agenda / 议程
+### B2. Agenda
 
 1. Welcome and confirmation of quorum
 2. Apologies
@@ -163,7 +160,7 @@
 
 ---
 
-### B3. Resolutions Passed / 通过的决议
+### B3. Resolutions Passed
 
 | Resolution | Moved By | Seconded By | Result |
 |------------|----------|-------------|--------|
@@ -175,7 +172,7 @@
 
 ---
 
-### B4. Elections / 选举结果
+### B4. Elections
 
 | Position | Candidate | Nominated By | Seconded By | Result |
 |----------|-----------|-------------|-------------|--------|
@@ -187,7 +184,7 @@
 
 ---
 
-### B5. Meeting Close / 会议结束
+### B5. Meeting Close
 
 **Meeting closed at:** _________________
 **Next AGM (planned):** _________________

@@ -1,6 +1,6 @@
 # Contact Person Policy & Designation Record
 
-> **[OFFICIAL — PRIMARY ENGLISH VERSION]** This is the legally operative version for official submission, regulatory reporting, and governance purposes. For the complete Chinese reference translation, see [`contact_person_ZH_REF.md`](./contact_person_ZH_REF.md). **In case of any discrepancy between the English and Chinese versions, this English version prevails.** Any Chinese annotations in this document are for convenience only and do not form part of the official text.
+> **[OFFICIAL — PRIMARY ENGLISH VERSION]** This is the legally operative version for official submission, regulatory reporting, and governance purposes. For the complete Chinese reference translation, see [`contact_person_ZH_REF.md`](./contact_person_ZH_REF.md). **In case of any discrepancy between the English and Chinese versions, this English version prevails.**
 
 **NZ Chinese Heritage & Community Alliance Inc. (HCCA)**
 
@@ -8,15 +8,13 @@
 
 ---
 
-## 1. Statutory Requirement / 法定要求
+## 1. Statutory Requirement
 
 Under **Section 113** of the Incorporated Societies Act 2022, every incorporated society **must** have a designated **Contact Person** at all times. The Contact Person acts as the primary point of contact between HCCA and the Registrar of Incorporated Societies.
 
-依据《2022年社团法》**第113条**，每个法团必须在任何时候都有一名指定的**联络人**。联络人作为HCCA与法团注册处之间的主要联系人。
-
 ---
 
-## 2. Requirements for the Contact Person / 联络人资质要求
+## 2. Requirements for the Contact Person
 
 The Contact Person must:
 
@@ -26,16 +24,9 @@ The Contact Person must:
 *(d)* Have **consented in writing** to act as the Contact Person; and
 *(e)* Have their **name and contact details** registered with the Registrar of Incorporated Societies.
 
-联络人必须：
-- 是一位自然人（非法人实体）；
-- 年满18岁；
-- 通常居住在新西兰；
-- 已书面同意担任联络人；
-- 其姓名和联系方式已向法团注册处登记。
-
 ---
 
-## 3. Role and Responsibilities / 职责与责任
+## 3. Role and Responsibilities
 
 The Contact Person's responsibilities include:
 
@@ -47,11 +38,9 @@ The Contact Person's responsibilities include:
 
 **The Contact Person does not have governance authority by virtue of this role alone.** Their role is administrative and communication-focused. If the Contact Person is also an officer, their officer duties apply separately.
 
-联络人**不因本职责而具有治理权**。其职责为行政与通讯性质。若联络人同时担任理事会职员，其职员职责另行适用。
-
 ---
 
-## 4. Appointment and Removal / 任命与免除
+## 4. Appointment and Removal
 
 4.1 The Contact Person is appointed by resolution of the Committee.
 
@@ -63,7 +52,7 @@ The Contact Person's responsibilities include:
 
 ---
 
-## 5. Current Contact Person / 现任联络人
+## 5. Current Contact Person
 
 | Field | Details |
 |-------|---------|
@@ -78,7 +67,7 @@ The Contact Person's responsibilities include:
 
 ---
 
-## 6. Contact Person Consent Form / 联络人同意书
+## 6. Contact Person Consent Form
 
 > *Print and sign this form upon appointment; file the original with the Secretary.*
 
@@ -97,7 +86,7 @@ I, ________________________________ *(full legal name)*, confirm that:
 
 ---
 
-## 7. History of Contact Persons / 历任联络人记录
+## 7. History of Contact Persons
 
 | Name | From Date | To Date | Reason for Change |
 |------|-----------|---------|-------------------|

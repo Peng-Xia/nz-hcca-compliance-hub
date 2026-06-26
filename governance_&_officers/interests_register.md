@@ -10,7 +10,7 @@
 
 ---
 
-## How to Use This Register / 如何使用本登记册
+## How to Use This Register
 
 1. **Officers must disclose** any interest (direct or indirect, financial or non-financial) in any matter before the Committee, as defined in the [Conflict of Interest Policy](conflict_of_interest_policy.md).
 2. The **Secretary records** each disclosure within 5 working days of it being made.
@@ -20,7 +20,6 @@
 ---
 
 ## Part A — Standing Interests (Declared at Time of Taking Office)
-## A部分 — 任职时申报的常设利益
 
 *Officers must complete this section upon taking office and update it whenever their interests change.*
 
@@ -34,7 +33,7 @@
 | 6 | | | | | | |
 | 7 | | | | | | |
 
-**Nature of Interest Categories / 利益类别:**
+**Nature of Interest Categories:**
 - `F` = Financial interest (direct)
 - `FF` = Financial interest (through family member)
 - `D` = Directorship / trustee of another organisation
@@ -46,13 +45,12 @@
 ---
 
 ## Part B — Transaction-Specific Disclosures
-## B部分 — 特定事项的利益披露记录
 
 *Record each instance where an officer discloses an interest in a specific matter before the Committee.*
 
 ---
 
-### Entry Format / 条目格式
+### Entry Format
 
 **Disclosure Reference No.:** *(sequential, e.g., INT-2025-001)*
 **Date of Disclosure:** 
@@ -79,7 +77,7 @@
 
 ---
 
-### Disclosure Log / 披露记录日志
+### Disclosure Log
 
 | Ref No. | Date | Officer | Matter | Nature of Interest | Action Taken | Recorded By |
 |---------|------|---------|--------|-------------------|--------------|-------------|
@@ -92,7 +90,6 @@
 ---
 
 ## Part C — Annual Confirmation
-## C部分 — 年度确认
 
 *At each AGM, all officers must sign to confirm their interests disclosures are current.*
 
@@ -113,7 +110,6 @@
 ---
 
 ## Part D — Register Custodian
-## D部分 — 登记册管理人
 
 | Role | Name | Contact | From Date | To Date |
 |------|------|---------|-----------|---------|

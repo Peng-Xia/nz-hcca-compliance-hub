@@ -1,6 +1,6 @@
 # Dispute Resolution Policy
 
-> **[OFFICIAL — PRIMARY ENGLISH VERSION]** This is the legally operative version for official submission, regulatory reporting, and governance purposes. For the complete Chinese reference translation, see [`dispute_resolution_policy_ZH_REF.md`](../dispute_resolution/dispute_resolution_policy_ZH_REF.md). **In case of any discrepancy between the English and Chinese versions, this English version prevails.** Any Chinese annotations in this document are for convenience only and do not form part of the official text.
+> **[OFFICIAL — PRIMARY ENGLISH VERSION]** This is the legally operative version for official submission, regulatory reporting, and governance purposes. For the complete Chinese reference translation, see [`dispute_resolution_policy_ZH_REF.md`](./dispute_resolution_policy_ZH_REF.md). **In case of any discrepancy between the English and Chinese versions, this English version prevails.**
 
 **NZ Chinese Heritage & Community Alliance Inc. (HCCA)**
 
@@ -8,15 +8,13 @@
 
 ---
 
-## 1. Purpose / 目的
+## 1. Purpose
 
 This policy establishes a fair, accessible, and legally compliant process for resolving disputes and complaints within HCCA. It is designed to be consistent with the principles of **Natural Justice** as required by **Section 39** of the Incorporated Societies Act 2022 and incorporates the **safe harbour provisions** of **Schedule 2** of the Act.
 
-本政策为HCCA内部的争议与投诉建立一套公平、易于使用且符合法律要求的解决程序。本政策与《2022年社团法》**第39条**规定的**自然公正**原则保持一致，并采纳法案**附表2**的安全港条款。
-
 ---
 
-## 2. Principles of Natural Justice / 自然公正原则
+## 2. Principles of Natural Justice
 
 All dispute resolution processes within HCCA must adhere to the following fundamental principles of **Natural Justice**:
 
@@ -32,7 +30,7 @@ All dispute resolution processes within HCCA must adhere to the following fundam
 
 ---
 
-## 3. Scope / 适用范围
+## 3. Scope
 
 This policy applies to:
 
@@ -43,7 +41,7 @@ This policy applies to:
 
 ---
 
-## 4. Step 1 — Informal Resolution / 第一步：非正式解决
+## 4. Step 1 — Informal Resolution
 
 4.1 Where a dispute or complaint arises, the parties should first attempt to resolve it informally through direct, good-faith communication.
 
@@ -55,7 +53,7 @@ This policy applies to:
 
 ---
 
-## 5. Step 2 — Formal Complaint to the Committee / 第二步：向理事会正式投诉
+## 5. Step 2 — Formal Complaint to the Committee
 
 5.1 If informal resolution is unsuccessful, a party may submit a **formal written complaint** to the Secretary.
 
@@ -77,7 +75,7 @@ This policy applies to:
 
 ---
 
-## 6. Step 3 — Committee Hearing / 第三步：理事会听审
+## 6. Step 3 — Committee Hearing
 
 6.1 The Committee must convene a hearing to consider the formal complaint within **20 working days** of receiving the respondent's response (or of the deadline for response passing).
 
@@ -116,7 +114,7 @@ If insufficient unbiased Committee members are available, the Committee may appo
 
 ---
 
-## 7. Step 4 — Appeal / 第四步：申诉
+## 7. Step 4 — Appeal
 
 7.1 Either party may appeal the Committee's decision to a **general meeting** of the Society within **15 working days** of receiving the written decision.
 
@@ -133,7 +131,7 @@ If insufficient unbiased Committee members are available, the Committee may appo
 
 ---
 
-## 8. Schedule 2 Safe Harbour Provisions / 附表2安全港条款
+## 8. Schedule 2 Safe Harbour Provisions
 
 8.1 This policy is designed to take advantage of the safe harbour protections available under **Schedule 2** of the Incorporated Societies Act 2022. Compliance with the procedures in this policy constitutes compliance with Schedule 2.
 
@@ -147,7 +145,7 @@ If insufficient unbiased Committee members are available, the Committee may appo
 
 ---
 
-## 9. Confidentiality / 保密要求
+## 9. Confidentiality
 
 9.1 All parties to a dispute and all persons involved in the resolution process must keep the details of the complaint, the hearing, and the outcome confidential, except as required by law or as necessary to give effect to the outcome.
 
@@ -155,7 +153,7 @@ If insufficient unbiased Committee members are available, the Committee may appo
 
 ---
 
-## 10. Anti-Victimisation / 反报复保护
+## 10. Anti-Victimisation
 
 10.1 HCCA will not tolerate any victimisation, retaliation, or unfair treatment of a person who has made a good-faith complaint or participated in a dispute resolution process.
 
@@ -163,7 +161,7 @@ If insufficient unbiased Committee members are available, the Committee may appo
 
 ---
 
-## 11. Policy Review / 政策审查
+## 11. Policy Review
 
 This policy must be reviewed by the Committee at least every two years and whenever there is a significant change to the Act or relevant law.
 

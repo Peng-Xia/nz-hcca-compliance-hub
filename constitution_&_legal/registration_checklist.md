@@ -8,7 +8,7 @@
 
 ---
 
-## Phase 1: Pre-Incorporation / 注册前准备
+## Phase 1: Pre-Incorporation
 
 ### 1.1 Society Name
 - [ ] Proposed name **"NZ Chinese Heritage & Community Alliance Incorporated"** is available (search the Companies Office register).
@@ -46,7 +46,7 @@
 
 ---
 
-## Phase 2: Incorporated Societies Application / 社团注册申请
+## Phase 2: Incorporated Societies Application
 
 ### 2.1 Online Application (Registrar of Incorporated Societies)
 - [ ] Create account on Companies Office / Incorporated Societies register.
@@ -68,7 +68,7 @@
 
 ---
 
-## Phase 3: Charity Registration (Charities Services) / 慈善机构注册申请
+## Phase 3: Charity Registration (Charities Services)
 
 ### 3.1 Eligibility Check
 - [ ] Confirm all purposes are **exclusively charitable** within Charities Act 2005.
@@ -104,7 +104,7 @@
 
 ---
 
-## Phase 4: Ongoing Compliance Calendar / 持续合规日历
+## Phase 4: Ongoing Compliance Calendar
 
 | Obligation | Frequency | Responsible Officer | Due Date |
 |------------|-----------|---------------------|----------|

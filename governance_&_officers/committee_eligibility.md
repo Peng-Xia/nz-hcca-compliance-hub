@@ -113,7 +113,7 @@ Removed officers must:
 ## Appendix A — Officer Eligibility Declaration Form
 
 **NZ Chinese Heritage & Community Alliance Inc.**
-**Officer Eligibility Declaration / 职员资格声明**
+**Officer Eligibility Declaration**
 
 I, ________________________________ *(full legal name)*, hereby declare that:
 

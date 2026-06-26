@@ -1,6 +1,6 @@
 # Conflict of Interest Policy
 
-> **[OFFICIAL — PRIMARY ENGLISH VERSION]** This is the legally operative version for official submission, regulatory reporting, and governance purposes. For the complete Chinese reference translation, see [`conflict_of_interest_policy_ZH_REF.md`](./conflict_of_interest_policy_ZH_REF.md). **In case of any discrepancy between the English and Chinese versions, this English version prevails.** Any Chinese annotations in this document are for convenience only and do not form part of the official text.
+> **[OFFICIAL — PRIMARY ENGLISH VERSION]** This is the legally operative version for official submission, regulatory reporting, and governance purposes. For the complete Chinese reference translation, see [`conflict_of_interest_policy_ZH_REF.md`](./conflict_of_interest_policy_ZH_REF.md). **In case of any discrepancy between the English and Chinese versions, this English version prevails.**
 
 **NZ Chinese Heritage & Community Alliance Inc. (HCCA)**
 
@@ -8,17 +8,15 @@
 
 ---
 
-## 1. Purpose / 目的
+## 1. Purpose
 
 This policy ensures that officers and members of HCCA act in the best interests of the Society and avoid situations where their personal, financial, or other interests could conflict — or be perceived to conflict — with those of the Society.
 
-本政策确保HCCA理事会成员及普通会员始终以组织最佳利益为行动准则，避免其个人、财务或其他利益与组织利益发生冲突或产生潜在冲突的情形。
-
 ---
 
-## 2. Definitions / 定义
+## 2. Definitions
 
-### 2.1 "Interest" / "利益"
+### 2.1 "Interest"
 
 For the purposes of this policy and consistent with **Section 62** of the Act, an officer has an **interest** in a matter if they:
 
@@ -29,17 +27,17 @@ For the purposes of this policy and consistent with **Section 62** of the Act, a
 *(e)* are otherwise directly or indirectly interested in the matter; or
 *(f)* a reasonable and objective person would consider could result in the officer failing to act in the Society's best interests.
 
-### 2.2 "Conflict of Interest" / "利益冲突"
+### 2.2 "Conflict of Interest"
 
 A **conflict of interest** arises whenever an officer's personal interests, or interests of persons connected to them, could improperly influence, or be perceived to improperly influence, their performance of their duties to HCCA.
 
-### 2.3 "Interested Officer" / "有利益关系的职员"
+### 2.3 "Interested Officer"
 
 An **interested officer** is any officer who has, or may have, an interest in a matter before the Committee.
 
 ---
 
-## 3. Disclosure Requirements / 披露要求
+## 3. Disclosure Requirements
 
 ### 3.1 Duty to Disclose *(Section 63 & 64)*
 
@@ -51,19 +49,19 @@ An officer who is **interested** in a matter must:
   - the Chair/President, who must then bring it to the Committee's attention; and
 *(c)* ensure the disclosure is recorded in the **Interests Register** (see clause 5 and the [Interests Register](interests_register.md)).
 
-### 3.2 Timing of Disclosure / 披露时机
+### 3.2 Timing of Disclosure
 
 Disclosure must be made:
 - **Before** any discussion or decision on the relevant matter; or
 - As soon as the officer becomes aware of the interest, if it arises during the course of a meeting.
 
-### 3.3 Ongoing Disclosure / 持续披露义务
+### 3.3 Ongoing Disclosure
 
 Officers have a continuing obligation to update their disclosures. If an officer's interests change, they must make a further disclosure as soon as practicable.
 
 ---
 
-## 4. Consequences of Disclosure — Restrictions on Interested Officers / 披露后的限制
+## 4. Consequences of Disclosure — Restrictions on Interested Officers
 
 ### 4.1 Default Restrictions *(Section 65)*
 
@@ -85,13 +83,13 @@ if the Committee is satisfied that permitting participation is in the **best int
 
 Any such resolution must be recorded in both the Committee meeting minutes and the Interests Register.
 
-### 4.3 Quorum / 法定人数
+### 4.3 Quorum
 
 For the avoidance of doubt, an interested officer who is excluded from a vote does not count towards the quorum for that vote.
 
 ---
 
-## 5. The Interests Register / 利益登记册
+## 5. The Interests Register
 
 ### 5.1 Maintenance of the Register *(Section 68)*
 
@@ -117,7 +115,7 @@ The Interests Register must be reviewed at each AGM. All serving officers must c
 
 ---
 
-## 6. General Member Conflicts of Interest / 普通会员的利益冲突
+## 6. General Member Conflicts of Interest
 
 6.1 While the statutory conflict of interest obligations under Sections 62–73 apply to **officers**, ordinary members are also expected to act in good faith.
 
@@ -128,7 +126,7 @@ The Interests Register must be reviewed at each AGM. All serving officers must c
 
 ---
 
-## 7. Consequences of Non-Compliance / 违规后果
+## 7. Consequences of Non-Compliance
 
 7.1 An officer who fails to disclose an interest as required may:
 
@@ -139,7 +137,7 @@ The Interests Register must be reviewed at each AGM. All serving officers must c
 
 ---
 
-## 8. Examples of Conflicts of Interest / 利益冲突示例
+## 8. Examples of Conflicts of Interest
 
 The following are illustrative examples of situations that may give rise to a conflict of interest (this list is not exhaustive):
 
