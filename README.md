@@ -20,12 +20,14 @@ The NZ Chinese Heritage & Community Alliance Inc. (HCCA) exists to strengthen th
 ## Mission / 使命
 
 **English:**
+
 - Organise cultural, educational, and social events that celebrate Chinese heritage.
 - Provide a support network for newly arrived Chinese immigrants and long-standing community members alike.
 - Advocate for the interests of Chinese-heritage communities in New Zealand's policy and civic spaces.
 - Operate transparently, accountably, and in strict compliance with New Zealand law.
 
 **中文：**
+
 - 举办传承中华文化的文化、教育与社区活动。
 - 为新到达的华裔移民及长期定居社区成员提供支持网络。
 - 在新西兰政策与公民社会空间中为华裔社区发声。
@@ -45,7 +47,7 @@ All HCCA events must adhere to the following principles:
 5. **Cultural Sensitivity:** Events involving cultural content must be reviewed by a Committee-designated cultural advisor to ensure respectful and accurate representation.
 
 **中文：**
-所有HCCA活动须遵循以下原则：
+所有 HCCA 活动须遵循以下原则：
 
 1. **包容性：** 活动向所有社区成员开放，除非特定项目有理由限制参与且已获理事会批准。
 2. **安全性：** 所有活动在开始前须完成[活动安全与合规清单](event_operations/event_compliance_checklist.md)。
@@ -63,7 +65,7 @@ HCCA may receive funding from overseas donors in support of its charitable purpo
 - All overseas donations exceeding NZD 1,500 (or equivalent) in a single transaction or NZD 5,000 cumulative from a single overseas source in any 12-month period must be disclosed in the Annual Report and recorded in the Overseas Funding Register.
 - HCCA conducts anti-money laundering (AML) self-assessments for all overseas funding receipts consistent with the Anti-Money Laundering and Countering Financing of Terrorism Act 2009 obligations applicable to charities.
 - No overseas funds may be distributed to individual members as personal financial gain. All funds must be applied exclusively to the HCCA's charitable purposes.
-- Full details of the overseas funding compliance framework are set out in the [Overseas Funding Rules](finance_&_funding/overseas_funding_rules.md).
+- Full details of the overseas funding compliance framework are set out in the [Overseas Funding Rules](finance_%26_funding/overseas_funding_rules.md).
 
 **中文：**
 HCCA 可接受来自海外捐助方的资金，以支持其慈善宗旨。为确保完全透明与合规：
@@ -71,7 +73,7 @@ HCCA 可接受来自海外捐助方的资金，以支持其慈善宗旨。为确
 - 单笔超过 NZD 1,500（或等值）或同一海外来源在任何12个月内累计超过 NZD 5,000 的捐款，须在年度报告中披露并记录于海外资金登记册。
 - HCCA 对所有海外资金的接收进行反洗钱（AML）自查，符合适用于慈善机构的《2009年反洗钱和反恐怖融资法》相关义务。
 - 任何海外资金均不得作为个人经济利益分配给会员，所有资金须专用于 HCCA 的慈善目的。
-- 海外资金合规框架的完整细节载于[海外资金合规规则](finance_&_funding/overseas_funding_rules.md)。
+- 海外资金合规框架的完整细节载于[海外资金合规规则](finance_%26_funding/overseas_funding_rules.md)。
 
 ---
 
@@ -181,17 +183,15 @@ nz-hcca-compliance-hub/
 
 | Document | Purpose |
 |----------|---------|
-| [Constitution](constitution_&_legal/constitution_template.md) | Legal foundation / 法律基础 |
-| [Conflict of Interest Policy](governance_&_officers/conflict_of_interest_policy.md) | Officer duties / 职员义务 |
-| [Overseas Funding Rules](finance_&_funding/overseas_funding_rules.md) | Funding compliance / 资金合规 |
+| [Constitution](constitution_%26_legal/constitution_template.md) | Legal foundation / 法律基础 |
+| [Conflict of Interest Policy](governance_%26_officers/conflict_of_interest_policy.md) | Officer duties / 职员义务 |
+| [Overseas Funding Rules](finance_%26_funding/overseas_funding_rules.md) | Funding compliance / 资金合规 |
 | [Dispute Resolution Policy](dispute_resolution/dispute_resolution_policy.md) | Member rights / 成员权利 |
 | [Event Checklist](event_operations/event_compliance_checklist.md) | Event management / 活动管理 |
 | [Governance & Git Flow](GOVERNANCE.md) | Change management / 变更管理 |
 
 ---
 
-*Maintained by the HCCA Committee. For queries: refer to the [Contact Person](governance_&_officers/contact_person.md).*
+*Maintained by the HCCA Committee. For queries: refer to the [Contact Person](governance_%26_officers/contact_person.md).*
 
-*由HCCA理事会维护。如有疑问，请参阅[联络人](governance_&_officers/contact_person.md)文件。*
- 
- 
+*由 HCCA 理事会维护。如有疑问，请参阅[联络人](governance_%26_officers/contact_person.md)文件。*
